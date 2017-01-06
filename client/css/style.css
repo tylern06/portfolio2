@@ -480,7 +480,7 @@ textarea.form-control {
 /* ---------------------------------------------- */
 
 #home {
-	background: url(/assets/mac3.jpg);
+	background: url('../img/mac3.jpg');
 	height: 995px;
 	width: 100%;
 	background-color: #222;
@@ -563,7 +563,7 @@ textarea.form-control {
 .side-image {
 	position: absolute;
 	/*top: 25px;*/
-	background: url(/assets/seattle2.jpg) no-repeat;
+	background: url(../img/seattle2.jpg) no-repeat;
 	-webkit-background-size: cover;
 	   -moz-background-size: cover;
 		 -o-background-size: cover;
@@ -987,6 +987,10 @@ div.scroll-up {
 	opacity: 0.3;
 }
 
+/*.scroll-up a:before {
+	font-family: 'FontAwesome';
+	content:  "\f062";
+}*/
 .scroll-up a {
 	background-color: rgba(135, 135, 135, 0.5);
 	display: block;
@@ -1075,7 +1079,7 @@ div.scroll-up {
 
 #status,
 .status-mes {
-	background-image: url(/assets/preloader.gif);
+	background-image: url(../img/preloader.gif);
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 200px;
