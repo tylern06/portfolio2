@@ -1,6 +1,6 @@
 .grid {
 	padding: 20px 20px 100px 20px;
-	max-width: 1300px;
+	max-width: 1600px;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
@@ -31,18 +31,22 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #2c3f52;
-	color: #ed4e6e;
+	background: black;
+	color: #f8f8f8;
 }
 
 .portfolio-items-container figcaption h3 {
 	margin: 0;
 	padding: 0;
-	color: #fff;
+	color: #f8f8f8;
 	font-size: 18px;
+	margin-bottom: 10px;
 }
 .portfolio-items-container figcaption p{
 	font-size: 14px;
+}
+.portfolio-items-container figcaption p.tech{
+	max-width: 300px;
 }
 /*.portfolio-items-container figcaption span:before {
 	content: 'by ';
@@ -53,8 +57,8 @@
 	padding: 5px 5px;
 	border-radius: 2px;
 	display: inline-block;
-	background: #ed4e6e;
-	color: #fff;
+	background: white;
+	color: black;
 	position: relative;
 	right: 50px;
 }
@@ -145,7 +149,7 @@
 }
 
 .cs-style-3 figcaption {
-	height: 220px;
+	height: 260px;
 	width: 100%;
 	top: auto;
 	bottom: 0;
